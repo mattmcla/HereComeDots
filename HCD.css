@@ -3,39 +3,63 @@ body {
 	background-repeat: none;
 	background-attachment: fixed;
 }
+
 #outerBox{
 	width: 1200px;
-	height: 750px;
+	height: 950px;
 	margin: 30px auto;
 	border-width: 0px 0px 0px 0px;
 	background-color: #F5DEB3;
 	background-color: rgba(250, 250, 250, .85);
+	text-align: center;
 }
 
-#albumArt{
-	width: 350px;
-	height: 300px;
-	background-image: url(albumArt.jpg);
-	margin: 50px auto;
+#headerBox{
+	width: 1200px;
+	margin: 5px auto;
+	float: right;
+	text-align: center;
+}
+
+#preBoxButtons{
+	width: 1000;
+	height: 35px;
+	float: left;
+	margin-top: 435px;
+	padding: 10px;
+	background-color: #F5DEB3;
+	background-color: rgba(250, 250, 250, .85);
+	
 }
 
 #boxButtons{
-	width: 380px;
-	float: left;
-	margin-top: 280px;
+	width: 40px;
 	height: 35px;
+	float: left;
+	margin-top: 435px;
+	padding: 10px;
 	background-color: #F5DEB3;
 	background-color: rgba(250, 250, 250, .85);
-	padding: 10px;
-	}
 	
+}
+
+#bio{
+	width: 1200px;
+	height: 325px;
+	float:left;
+	margin: 30px auto;
+}
 
 h{
-	color: #505050;
-	font-size: 30pt;
+	font-size: 40pt;
 	font-family: monospace;
-	float: left;
-	width: 1200px;
+
+}
+
+p{
+	font-size: 13pt;
+	font-family: monospace;
+	
 }
 
 p.clear{
